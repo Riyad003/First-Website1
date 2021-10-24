@@ -1,0 +1,238 @@
+/* Universal CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.fixed-width1{
+    max-width: 1320px;
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+/* Header CSS */
+.header{
+    background-color: #f5f7f8;
+   
+   
+}
+.header-left{
+    float: left;
+    width: 30%;
+
+}
+img{
+    max-width: 100%;
+}
+.header-left img{
+    width: 120px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul {
+    text-align: right;
+}
+.header-right ul li{
+    text-align: right;
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 18px;
+    color:#807373;
+    font-size: 1.3rem;
+    font-weight: 570;
+    line-height: 58px;
+  
+    transition: .6s;
+}
+.header-right ul li a:hover{
+   
+    color: tomato;
+}
+/* Banner Section */
+.banner{
+    background-image: url(https://c8.alamy.com/comp/T87AGX/3d-isometric-web-banner-website-development-and-application-interface-design-on-laptop-web-development-and-application-design-concept-T87AGX.jpg);
+    padding: 220px 0;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-caption h1{
+    color: white;
+    font-size: 4rem;
+    padding: 20px 60px;
+    font-weight: 500;
+    background-color: rgba(1, 15, 32, 0.6);
+    display: inline-block;
+   border-radius: 50px;
+   margin-bottom: 10px;
+}
+.banner-caption h2{
+    color: white;
+    font-size: 2rem;
+    padding: 15px 50px;
+    font-weight: 300;
+    background-color: rgba(5, 40, 87, 0.6);
+    display: inline-block;
+   border-radius: 50px;
+  
+}
+/* About Us */
+.about-us{
+   padding: 100px 0;
+    text-align: center;
+    background-color: rgb(230, 234, 240);
+}
+.about-us h2{
+    font-size: 2.5rem;
+    font-weight: 530;
+    margin-bottom: 30px;
+}
+.about-us p{
+    font-size: 1.3rem;
+    font-weight: 450;
+    line-height: 1.7;
+    word-spacing: 4px;
+    color: rgb(116, 119, 122);
+}
+
+/* Service Section */
+.service{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.services-item{
+    float: left;
+    width: 30.33%;
+   border: 1px solid gray;
+   box-sizing: border-box;
+   margin-left: 1%;
+   margin-right: 15px;
+  
+   padding: 30px 10px;
+
+}
+span{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: lightseagreen;
+    margin: auto;
+    line-height: 50px;
+    border-radius: 22px 0 22px 0;
+    font-size: 1.4rem;
+    color: rgb(236, 240, 245);
+}
+.services-item h3{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+.services-item p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #767676;
+}
+
+/* Blog Section */
+.blog-container{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.blog-left{
+    float: left;
+    width: 65%;
+   
+}
+.blog-item{
+    margin-bottom: 40px;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    margin-right:15px;
+    height: auto;
+   
+}
+.blog-item p{
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: #676767;
+}
+.blog-right{
+    float: right;
+    width: 30%;
+    /* margin-top: -180px; */
+}
+.blog-right h2{
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer{
+  background-color: rgb(6, 30, 61);
+  padding: 22px 10px;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+    color: linen;
+    font-size: 18px;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+
+
+.footer-right ul li{
+    display: inline-block;
+    
+}
+.footer-right ul li a{
+    display: block;
+    color: linen;
+    margin-left: 10px;
+    font-size: 25px;
+    list-style: none;
+    padding: 6px;
+    text-decoration: none;
+    transition: .6s;
+}
+.footer-right ul li a:hover{
+    color: tomato;
+}
